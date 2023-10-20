@@ -6,6 +6,7 @@ public class Program
     
     public static void Main(string[] args)
     {
+        
         sqlHelper sql = new sqlHelper();
         sql.init();
         sql.vuln_string_concat(args[0]);
