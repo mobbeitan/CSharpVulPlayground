@@ -112,10 +112,6 @@ public class sqlHelper
     }
     public void init()
     {
-        this._builder = new SqlConnectionStringBuilder();
-        this._builder.DataSource = "<your_server>.database.windows.net"; 
-        this._builder.UserID = "<your_username>";            
-        this._builder.Password = "<your_password>";     
-        this._builder.InitialCatalog = "<your_database>";
+      //some initialization code
     }
 }
