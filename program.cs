@@ -3,7 +3,6 @@ using Microsoft.Data.SqlClient;
 
 public class Program
 {
-    
     public static void Main(string[] args)
     {
         sqlHelper sql = new sqlHelper();
